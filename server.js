@@ -21,6 +21,9 @@ const collegeSchema = z.object({
   name: z.string(),
   location: z.string(),
 });
+app.get('/', (req, res) => {
+  res.send("hi")
+})
 app.post('/submit', async (req, res) => {
   try {
     const data = req.body;
