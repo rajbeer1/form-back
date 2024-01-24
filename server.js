@@ -47,6 +47,6 @@ app.post('/submit', async (req, res) => {
 })
 
 
-app.listen(process.env.PORT|| 8000, () => {
-  console.log(`started on ${process.env.port}`)
+app.listen(process.env.PORT|| 3000, () => {
+  console.log(`started on ${process.env.PORT}`)
 })
