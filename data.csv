@@ -1,0 +1,3 @@
+_id,sport,college.name,college.location,captain.name,captain.rollNumber,captain.phoneNumber,captain.age,captain.emailId,captain.paymentString,players
+ObjectId(65b1faacfd03fc3fe44ae2af),Basketball,Springfield College,Springfield,John Doe,SC12345,123-456-7890,21,johndoe@example.com,pay_abc123,gryefsjhdj
+ObjectId(65b1faacfd03fc3fe44ae2b1),Basketball,Springfield College,Springfield,John Doe,SC12345,123-456-7890,21,johndoe@example.com,pay_abc123,gryefsjhdj

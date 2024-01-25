@@ -82,3 +82,6 @@ MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .catch((err) => {
     console.error('Error connecting to MongoDB:', err);
   });
+
+
+  mongoexport --uri=mongodb+srv://royu49:rajbeer11@cluster0.swzg33t.mongodb.net/test --collection=sportsteams --type=csv --fields=_id,sport,college.name,college.location,captain.name,captain.rollNumber,captain.phoneNumber,captain.age,captain.emailId,captain.paymentString,players --out=data.csv
