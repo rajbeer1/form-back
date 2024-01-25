@@ -1,13 +1,14 @@
 import express from "express";
 import connectToDB from "./db.js";
 import { SportsTeam } from "./model.js";
+import cors from 'cors'
 import {z} from 'zod'
 import dotenv from 'dotenv'
 dotenv.config()
 const app = express()
 connectToDB()
 app.use(express.json())
-  
+app.use(cors())  
 const captainSchema = z.object({
   name: z.string(),
   rollNumber: z.string(),
